@@ -17,6 +17,8 @@ set title
 set visualbell
 set showcmd
 set showmode
+set relativenumber
+set cursorline
 
 let g:airline_powerline_fonts = 1
 
