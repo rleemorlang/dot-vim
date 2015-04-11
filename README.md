@@ -10,7 +10,7 @@ Put this in ~/.gtkrc-2.0:
   }
   widget "vim-main-window.*.GtkForm" style "gvim"
 
-## Plugins
+## Plugin Notes
 
 ### [solarized](https://github.com/altercation/vim-colors-solarized)
 * change mode with `set background=light`

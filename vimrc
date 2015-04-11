@@ -18,6 +18,25 @@ set visualbell
 set showcmd
 set showmode
 
+let g:airline_powerline_fonts = 1
+
+" Powerline font choices, ranked by preferences. Test: 0oO 1li 
+set guifont=Ubuntu\ Mono\ derivative\ Powerline\ 10 "really nice
+"set guifont=Ubuntu\ Mono\ derivative\ Powerline\ 12 "really nice
+"set guifont=Meslo\ LG\ S\ for\ Powerline
+"set guifont=Anonymous\ Pro\ for\ Powerline
+"set guifont=Liberation\ Mono\ for\ Powerline "nice, clean
+"set guifont=Inconsolata\ for\ Powerline "smaller v of above
+"set guifont=DejaVu\ Sans\ Mono\ for\ Powerline "fine, clean
+"set guifont=Sauce\ Code\ Powerline
+"set guifont=Fira\ Mono\ for\ Powerline "serify
+"set guifont=monofur\ for\ Powerline
+"set guifont=Droid\ Sans\ Mono\ for\ Powerline "quite nice, compact, but 0 and O a bit hard to distinguish
+
+" alternatives
+"set guifont=Inconsolata\-g\ for\ Powerline "thin, a bit serify
+"set guifont=Meslo\ LG\ L\ DZ\ for\ Powerline "fairly nice, somewhat serif
+"set guifont=Meslo\ LG\ M\ DZ\ for\ Powerline "nicer, less tall
 
 " show trailing whitespace
 set list listchars=tab:\ \ ,trail:·

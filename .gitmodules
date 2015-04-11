@@ -7,3 +7,6 @@
 [submodule "bundle/solarized"]
 	path = bundle/solarized
 	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule "/home/rlm/.vim/bundle/vim-airline"]
+	path = /home/rlm/.vim/bundle/vim-airline
+	url = https://github.com/bling/vim-airline
