@@ -50,4 +50,17 @@ apt-get install exuberant-ctags
 * `]<space>` or `[<space>` to add lines above or below
 * others...
 
+### [youcompleteme](https://github.com/Valloric/YouCompleteMe#full-installation-guide)
+Needs a `git submodule update --init --recursive` to pull down its sub-deps.
+
+Also needs 
+
+  sudo apt-get install cmake python-dev`
+  cd /tmp
+  mkdir yvm_build
+  mkdir ycm_build
+  cd ycm_build
+  cmake -G "Unix Makefiles" . ~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp
+  make ycm_support_libs
+
 
