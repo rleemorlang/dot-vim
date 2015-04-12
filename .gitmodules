@@ -34,3 +34,6 @@
 [submodule "bundle/detectindent"]
 	path = bundle/detectindent
 	url = https://github.com/ciaranm/detectindent.git
+[submodule "bundle/gundo"]
+	path = bundle/gundo
+	url = http://github.com/sjl/gundo.vim.git

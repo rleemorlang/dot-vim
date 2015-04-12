@@ -29,6 +29,9 @@ apt-get install exuberant-ctags
 ** ctrl-t/v/x to open in new tab/split
 ** ctrl-z to mark multiple, ctrl-o to open
 
+### [gundo](http://github.com/sjl/gundo.vim.git)
+** `,,u` to open
+
 ### [multiple-cursors](https://github.com/terryma/vim-multiple-cursors.git)
 * ctrl-n when over a word to highlight, again to highlight next
 * ctrl-p to unhighlight
