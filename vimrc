@@ -68,9 +68,9 @@ set sidescrolloff=15
 set sidescroll=1
 
 " FOLDING
-set foldmethod=indent
-set foldnestmax=3
-set nofoldenable
+set foldmethod=indent   "fold based on indent
+set foldnestmax=3       "deepest fold is 3 levels
+set nofoldenable        "dont fold by default
 
 " BUFFERS
 set hidden " allow hiding a buffer without saving changes
@@ -132,18 +132,15 @@ let g:UltiSnipsExpandTrigger="<c-k>"
 let g:UltiSnipsListSnippets="<c-h>"
 let g:UltiSnipsJumpForwardTrigger="<c-k>"
 let g:UltiSnipsJumpBackwardTrigger="<s-c-j>"
-let g:UltiSnipsSnippetsDir="ultisnips/local"
+let g:UltiSnipsSnippetsDir="~/.vim/ultisnips/local"
 let g:UltiSnipsSnippetDirectories=["ultisnips/local"]
 let g:UltiSnipsEditSplit="horizontal"
+imap <c-space> <C-R>=UltiSnips#ExpandSnippetOrJump()<CR>
+autocmd BufNewFile,BufReadPost *.snippets set noexpandtab tabstop=2
 
 " seems like having this at the end of the file might be important for some
 " plugins to work properly 
 filetype plugin indent on
-
-" folding
-set foldmethod=indent   "fold based on indent
-set foldnestmax=3       "deepest fold is 3 levels
-set nofoldenable        "dont fold by default
 
 set noshowmode
 
