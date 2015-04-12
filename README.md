@@ -45,6 +45,12 @@ apt-get install exuberant-ctags
 
 ### [syntastic](https://github.com/scrooloose/syntastic.git)
 
+### [tern](https://github.com/marijnh/tern_for_vim)
+After cloning:
+
+  cd ~/.vim/bundle/tern
+  npm install
+
 ### [ultisnips](https://github.com/SirVer/ultisnips)
 * `c-k` to complete the match and/or move to the next stop
 * `c-h` to list completions

@@ -8,9 +8,9 @@ syntax on
 set background=dark
 colorscheme solarized
 
-
 set nowrap
 set linebreak
+set colorcolumn=80
 
 set title
 set visualbell
@@ -140,3 +140,6 @@ let g:UltiSnipsEditSplit="horizontal"
 " seems like having this at the end of the file might be important for some
 " plugins to work properly 
 filetype plugin indent on
+
+let g:tern_map_keys=1
+let g:tern_show_argument_hints='on_hold'
