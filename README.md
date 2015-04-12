@@ -45,6 +45,12 @@ apt-get install exuberant-ctags
 
 ### [syntastic](https://github.com/scrooloose/syntastic.git)
 
+### [ultisnips](https://github.com/SirVer/ultisnips)
+* `c-k` to complete the match and/or move to the next stop
+* `c-h` to list completions
+* `s-c-j` to move back
+* :UltiSnips<editsomething> to edit the snips for the current filetype
+
 ### [unimpaired](https://github.com/tpope/vim-unimpaired.git)
 * `]e` or `[e` to move the current line up/down
 * `]<space>` or `[<space>` to add lines above or below

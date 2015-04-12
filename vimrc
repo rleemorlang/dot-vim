@@ -8,7 +8,6 @@ syntax on
 set background=dark
 colorscheme solarized
 
-filetype plugin indent on
 
 set nowrap
 set linebreak
@@ -129,3 +128,15 @@ let g:EasyMotion_smartcase=1
 " javascript plugin
 let g:javascript_enable_domhtmlcss=1
 
+" UltiSnips
+let g:UltiSnipsExpandTrigger="<c-k>"
+let g:UltiSnipsListSnippets="<c-h>"
+let g:UltiSnipsJumpForwardTrigger="<c-k>"
+let g:UltiSnipsJumpBackwardTrigger="<s-c-j>"
+let g:UltiSnipsSnippetsDir="ultisnips/local"
+let g:UltiSnipsSnippetDirectories=["ultisnips/local"]
+let g:UltiSnipsEditSplit="horizontal"
+
+" seems like having this at the end of the file might be important for some
+" plugins to work properly 
+filetype plugin indent on
