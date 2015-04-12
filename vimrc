@@ -140,6 +140,11 @@ let g:UltiSnipsEditSplit="horizontal"
 " plugins to work properly 
 filetype plugin indent on
 
+" folding
+set foldmethod=indent   "fold based on indent
+set foldnestmax=3       "deepest fold is 3 levels
+set nofoldenable        "dont fold by default
+
 set noshowmode
 
 let g:tern_map_keys=1
