@@ -76,3 +76,6 @@
 [submodule "bundle/ragtag"]
 	path = bundle/ragtag
 	url = git@github.com:tpope/vim-ragtag.git
+[submodule "bundle/easy-align"]
+	path = bundle/easy-align
+	url = git@github.com:junegunn/vim-easy-align.git
