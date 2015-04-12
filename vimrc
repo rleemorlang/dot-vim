@@ -19,6 +19,8 @@ set showcmd
 set showmode
 set relativenumber
 set cursorline
+set shortmess=a
+set cmdheight=2
 
 let g:airline_powerline_fonts = 1
 
