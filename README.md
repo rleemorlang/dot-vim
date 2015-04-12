@@ -16,8 +16,12 @@ apt-get install exuberant-ctags
 
 ## Plugin Notes
 
-### [ctrlp](https://github.com/kien/ctrlp.vim)
+### [commentary](git://github.com/tpope/vim-commentary.git)
+* `gcc` to toggle commenting on the current line
+* `gcap` to comment a paragraph
+* `autocmd FileType apache set commentstring=#\ %s`
 
+### [ctrlp](https://github.com/kien/ctrlp.vim)
 * ctrl-p to open. once open:
 ** ctrl-d for filename only mode
 ** ctrl-r for regexp mode
