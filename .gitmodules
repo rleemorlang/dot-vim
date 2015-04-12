@@ -52,3 +52,12 @@
 [submodule "bundle/ledger"]
 	path = bundle/ledger
 	url = https://github.com/ledger/vim-ledger.git
+[submodule "bundle/angular"]
+	path = bundle/angular
+	url = https://github.com/burnettk/vim-angular.git
+[submodule "bundle/javascript-libraries-syntax"]
+	path = bundle/javascript-libraries-syntax
+	url = https://github.com/othree/javascript-libraries-syntax.vim.git
+[submodule "bundle/javascript"]
+	path = bundle/javascript
+	url = https://github.com/pangloss/vim-javascript.git
