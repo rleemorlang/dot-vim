@@ -25,6 +25,11 @@ apt-get install exuberant-ctags
 ** ctrl-t/v/x to open in new tab/split
 ** ctrl-z to mark multiple, ctrl-o to open
 
+### [multiple-cursors](https://github.com/terryma/vim-multiple-cursors.git)
+* ctrl-n when over a word to highlight, again to highlight next
+* ctrl-p to unhighlight
+* ctrl-x to skip
+
 ### [solarized](https://github.com/altercation/vim-colors-solarized)
 * change mode with `set background=light`
 * for proper terminal colors, see https://github.com/ghuntley/terminator-solarized

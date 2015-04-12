@@ -19,3 +19,6 @@
 [submodule "bundle/quickfix-reflector"]
 	path = bundle/quickfix-reflector
 	url = https://github.com/stefandtw/quickfix-reflector.vim.git
+[submodule "bundle/multiple-cursors"]
+	path = bundle/multiple-cursors
+	url = https://github.com/terryma/vim-multiple-cursors.git
