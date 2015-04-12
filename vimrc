@@ -107,3 +107,6 @@ set guioptions=aegit
 
 set tags=./tags;~
 
+" for the detectindent plugin
+let g:detectindent_preferred_indent=4
+autocmd BufReadPost * :DetectIndent
