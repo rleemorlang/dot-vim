@@ -157,3 +157,5 @@ let g:html_indent_style1="inc" " or auto
 let g:html_indent_inctags="body,head,md-card"
 let g:html_indent_autotags=""   " tags to NOT indent?
 
+" ctrlp
+let g:ctrlp_custom_ignore='node_modules\|bower_components\|\v[\/]\.(git|hg)'
