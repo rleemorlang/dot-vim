@@ -4,15 +4,15 @@
 
 Put this in ~/.gtkrc-2.0:
 
-  # color the right and bottom edges of maximized gvim windows
-  style "gvim" {
-      bg[NORMAL] = "#002b36"
-  }
-  widget "vim-main-window.*.GtkForm" style "gvim"
+    # color the right and bottom edges of maximized gvim windows
+    style "gvim" {
+        bg[NORMAL] = "#002b36"
+    }
+    widget "vim-main-window.*.GtkForm" style "gvim"
 
 ## ctags
 
-apt-get install exuberant-ctags
+    apt-get install exuberant-ctags
 
 ## Plugin Notes
 
@@ -48,8 +48,8 @@ apt-get install exuberant-ctags
 ### [tern](https://github.com/marijnh/tern_for_vim)
 After cloning:
 
-  cd ~/.vim/bundle/tern
-  npm install
+    cd ~/.vim/bundle/tern
+    npm install
 
 ### [ultisnips](https://github.com/SirVer/ultisnips)
 * `c-k` to complete the match and/or move to the next stop
@@ -67,12 +67,12 @@ Needs a `git submodule update --init --recursive` to pull down its sub-deps.
 
 Also needs 
 
-  sudo apt-get install cmake python-dev`
-  cd /tmp
-  mkdir yvm_build
-  mkdir ycm_build
-  cd ycm_build
-  cmake -G "Unix Makefiles" . ~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp
-  make ycm_support_libs
+    sudo apt-get install cmake python-dev`
+    cd /tmp
+    mkdir yvm_build
+    mkdir ycm_build
+    cd ycm_build
+    cmake -G "Unix Makefiles" . ~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp
+    make ycm_support_libs
 
 
