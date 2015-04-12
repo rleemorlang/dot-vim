@@ -102,3 +102,6 @@ nmap ; :
 au BufWritePost .vimrc,vimrc so $MYVIMRC  "reload vimrc automatically when saved
 
 set guioptions=aegit
+
+set tags=./tags;~
+
