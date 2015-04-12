@@ -16,6 +16,13 @@ Put this in ~/.gtkrc-2.0:
 
 ## Plugin Notes
 
+### [coffee-script](git@github.com:kchmck/vim-coffee-script)
+* `CoffeeCompile` or `CoffeeCompile vert`
+* `CoffeeWatch` or `CoffeeWatch vert`
+* may want to try `setl scrollbind` on each buffer
+* `CoffeeRun`
+* `CoffeeLint`
+
 ### [commentary](git://github.com/tpope/vim-commentary.git)
 * `gcc` to toggle commenting on the current line
 * `gcap` to comment a paragraph

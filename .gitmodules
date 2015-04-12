@@ -79,3 +79,6 @@
 [submodule "bundle/easy-align"]
 	path = bundle/easy-align
 	url = git@github.com:junegunn/vim-easy-align.git
+[submodule "bundle/coffee-script"]
+	path = bundle/coffee-script
+	url = git@github.com:kchmck/vim-coffee-script.git
