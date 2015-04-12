@@ -112,3 +112,16 @@ let g:detectindent_preferred_indent=4
 autocmd BufReadPost * :DetectIndent
 
 noremap <leader><leader>u :GundoToggle<CR>
+
+" recommended beginner syntastic settings
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+" replace default vim search with easymotion
+map  / <Plug>(easymotion-sn)
+omap / <Plug>(easymotion-tn)
+map  n <Plug>(easymotion-next)
+map  N <Plug>(easymotion-prev)
+let g:EasyMotion_smartcase=1

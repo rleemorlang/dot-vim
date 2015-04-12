@@ -29,6 +29,8 @@ apt-get install exuberant-ctags
 ** ctrl-t/v/x to open in new tab/split
 ** ctrl-z to mark multiple, ctrl-o to open
 
+### [easymotion](https://github.com/Lokaltog/vim-easymotion.git)
+
 ### [gundo](http://github.com/sjl/gundo.vim.git)
 ** `,,u` to open
 
@@ -40,6 +42,8 @@ apt-get install exuberant-ctags
 ### [solarized](https://github.com/altercation/vim-colors-solarized)
 * change mode with `set background=light`
 * for proper terminal colors, see https://github.com/ghuntley/terminator-solarized
+
+### [syntastic](https://github.com/scrooloose/syntastic.git)
 
 ### [unimpaired](https://github.com/tpope/vim-unimpaired.git)
 * `]e` or `[e` to move the current line up/down
