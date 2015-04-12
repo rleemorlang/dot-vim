@@ -49,3 +49,6 @@
 [submodule "bundle/surround"]
 	path = bundle/surround
 	url = git://github.com/tpope/vim-surround.git
+[submodule "bundle/ledger"]
+	path = bundle/ledger
+	url = https://github.com/ledger/vim-ledger.git
