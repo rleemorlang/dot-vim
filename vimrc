@@ -156,3 +156,7 @@ let g:html_indent_autotags=""   " tags to NOT indent?
 
 " ctrlp
 let g:ctrlp_custom_ignore='node_modules\|bower_components\|\v[\/]\.(git|hg)'
+
+" easy-align
+vmap <Enter> <Plug>(EasyAlign)
+nmap ga <Plug>(EasyAlign)

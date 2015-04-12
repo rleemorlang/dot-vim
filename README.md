@@ -36,6 +36,18 @@ Put this in ~/.gtkrc-2.0:
 ** ctrl-t/v/x to open in new tab/split
 ** ctrl-z to mark multiple, ctrl-o to open
 
+### [easy-align](https://github.com/junegunn/vim-easy-align)
+* hit enter on a selection in visual mode
+* or something like `gaip=` to align around `=` for the current paragraph
+* use `<c-x>` to supply a regular expression
+* use `<c-p>` to enter "live interactive mode", if using regexes you can
+  hit `<c-x>` a second time to see the result of the regex
+* prefix a delimiter a number to align around the nth delimiter
+* with `-` to align around the last delimiter
+* with `*` to align around all delimiters
+* with `-<num>` to align around the nth-last delimiter
+* try "-<space>" to align in-line comments
+
 ### [easymotion](https://github.com/Lokaltog/vim-easymotion.git)
 
 ### [gundo](http://github.com/sjl/gundo.vim.git)
