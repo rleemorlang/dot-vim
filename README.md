@@ -38,4 +38,9 @@ apt-get install exuberant-ctags
 * change mode with `set background=light`
 * for proper terminal colors, see https://github.com/ghuntley/terminator-solarized
 
+### [unimpaired](https://github.com/tpope/vim-unimpaired.git)
+* `]e` or `[e` to move the current line up/down
+* `]<space>` or `[<space>` to add lines above or below
+* others...
+
 
