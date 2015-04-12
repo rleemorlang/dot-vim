@@ -149,3 +149,11 @@ set noshowmode
 
 let g:tern_map_keys=1
 let g:tern_show_argument_hints='on_hold'
+
+" fix up html indenting
+" to change these live, call HtmlIndent_CheckUserSettings() afterward
+let g:html_indent_script1="inc" " or auto
+let g:html_indent_style1="inc" " or auto
+let g:html_indent_inctags="body,head,md-card"
+let g:html_indent_autotags=""   " tags to NOT indent?
+
