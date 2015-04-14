@@ -20,6 +20,7 @@ set cursorline
 set shortmess=a
 set cmdheight=2
 
+let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
 
 " Powerline font choices, ranked by preferences. Test: 0oO 1li 
@@ -160,3 +161,6 @@ let g:ctrlp_custom_ignore='node_modules\|bower_components\|\v[\/]\.(git|hg)'
 " easy-align
 vmap <Enter> <Plug>(EasyAlign)
 nmap ga <Plug>(EasyAlign)
+
+" automatically strip whitespace when writing files
+autocmd BufWritePre *.coffee,*.rb,*.js,*.json :%s/\s\+$//e
