@@ -9,6 +9,7 @@ set background=dark
 colorscheme solarized
 
 set nowrap
+set formatprg=par\ -e\ -r
 set linebreak
 set colorcolumn=80
 
