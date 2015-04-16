@@ -73,7 +73,7 @@ set sidescroll=1
 " FOLDING
 set foldmethod=indent   "fold based on indent
 set foldnestmax=3       "deepest fold is 3 levels
-set nofoldenable        "dont fold by default
+set nofoldenable        "don't fold by default
 
 " BUFFERS
 set hidden " allow hiding a buffer without saving changes
@@ -101,8 +101,6 @@ set autoread               "automatically reload changes
 
 "save a SHIFT keypress for commands
 nmap ; :
-
-au BufWritePost .vimrc,vimrc so $MYVIMRC  "reload vimrc automatically when saved
 
 set guioptions=aegit
 
