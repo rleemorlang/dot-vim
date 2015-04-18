@@ -106,6 +106,8 @@ set guioptions=aegit
 
 set tags=./tags;~
 
+set nomodeline				"security risk
+
 " for the detectindent plugin
 let g:detectindent_preferred_indent=4
 autocmd BufReadPost * :DetectIndent
