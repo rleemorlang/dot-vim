@@ -16,6 +16,10 @@ Put this in ~/.gtkrc-2.0:
 
 ## Plugin Notes
 
+### [ack](https://github.com/mileszs/ack.vim)
+
+    apt-get install ack-grep
+
 ### [coffee-script](git@github.com:kchmck/vim-coffee-script)
 * `CoffeeCompile` or `CoffeeCompile vert`
 * `CoffeeWatch` or `CoffeeWatch vert`
