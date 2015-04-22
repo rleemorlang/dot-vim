@@ -87,4 +87,4 @@
 	url = https://github.com/rstacruz/sparkup.git
 [submodule "bundle/ack"]
 	path = bundle/ack
-	url = git@github.com:mileszs/ack.vim.git
+	url = https://github.com/mileszs/ack.vim.git
