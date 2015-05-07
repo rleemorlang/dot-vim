@@ -1,0 +1,48 @@
+snippet ngdesc
+describe '$1', ->
+	$1 = null
+
+	_provide = (callback) ->
+		module ($provide) ->
+			callback $provide
+			null
+
+	_inject = ->
+		inject (_$1_) ->
+			$1 = _$1_
+
+	_setup = ->
+		_provide (provide) ->
+		_inject()
+
+	beforeEach ->
+		module '$2'
+		_setup()
+
+	$0
+endsnippet
+
+snippet desc
+describe '$1', ->
+	$0
+endsnippet
+
+snippet it
+it "$1", ->
+	$0
+endsnippet
+
+snippet ex=
+expect($1).toEqual($2)
+$0
+endsnippet
+
+snippet exbe
+expect($1).toBe($2)
+$0
+endsnippet
+
+snippet exdef
+expect($1).toBeDefined();
+$0
+endsnippet
