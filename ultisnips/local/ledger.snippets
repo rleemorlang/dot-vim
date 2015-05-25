@@ -1,0 +1,29 @@
+snippet tdchqfee
+${1:`date +%Y/%m/%d`} Cheque Imaging fee
+	Expenses:TD Canada Trust		${2:\$1.50}
+	Assets:TD:Chequing
+
+$0
+endsnippet
+
+snippet tdpaper
+${1:`date +%Y/%m/%d`} Paper statement fee
+	Expenses:TD Canada Trust		${2:\$2.00}
+	Assets:TD:Chequing
+$0
+endsnippet
+
+snippet tdplanfee
+${1:`date +%Y/%m/%d`} Monthly plan fee
+	Expenses:TD Canada Trust		${2:\$5.00}
+	Assets:TD:Chequing
+$0
+endsnippet
+
+snippet tdchq
+${1} (${2}) ${3}
+	Accounts Payable:Payroll:${4}		\$${5}
+	Assets:TD:Chequing
+$0
+endsnippet
+

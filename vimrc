@@ -167,3 +167,8 @@ nmap ga <Plug>(EasyAlign)
 
 " automatically strip whitespace when writing files
 autocmd BufWritePre *.coffee,*.rb,*.js,*.json :%s/\s\+$//e
+
+" ledger settings
+autocmd BufNewFile,BufReadPost *.ledger.txt set noexpandtab shiftwidth=8 tabstop=8 softtabstop=8 filetype=ledger
+
+
