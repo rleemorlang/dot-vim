@@ -17,6 +17,7 @@ set title
 set visualbell
 set showcmd
 set relativenumber
+set number
 set cursorline
 set shortmess=a
 set cmdheight=2
