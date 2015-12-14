@@ -34,11 +34,11 @@ Put this in ~/.gtkrc-2.0:
 
 ### [ctrlp](https://github.com/kien/ctrlp.vim)
 * ctrl-p to open. once open:
-** ctrl-d for filename only mode
-** ctrl-r for regexp mode
-** ctrl-j/k to navigate
-** ctrl-t/v/x to open in new tab/split
-** ctrl-z to mark multiple, ctrl-o to open
+  * ctrl-d for filename only mode
+  * ctrl-r for regexp mode
+  * ctrl-j/k to navigate
+  * ctrl-t/v/x to open in new tab/split
+  * ctrl-z to mark multiple, ctrl-o to open
 
 ### [easy-align](https://github.com/junegunn/vim-easy-align)
 * hit enter on a selection in visual mode
@@ -55,7 +55,7 @@ Put this in ~/.gtkrc-2.0:
 ### [easymotion](https://github.com/Lokaltog/vim-easymotion.git)
 
 ### [gundo](http://github.com/sjl/gundo.vim.git)
-** `,,u` to open
+* `,,u` to open
 
 ### [multiple-cursors](https://github.com/terryma/vim-multiple-cursors.git)
 * ctrl-n when over a word to highlight, again to highlight next
