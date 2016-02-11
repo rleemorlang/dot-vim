@@ -171,4 +171,5 @@ autocmd BufWritePre *.coffee,*.rb,*.js,*.json :%s/\s\+$//e
 " ledger settings
 autocmd BufNewFile,BufReadPost *.ledger.txt set noexpandtab shiftwidth=8 tabstop=8 softtabstop=8 filetype=ledger
 
-
+" Ack
+noremap <Leader>a :Ack <cword><cr>   " search word under cursor
