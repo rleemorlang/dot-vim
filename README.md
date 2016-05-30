@@ -74,6 +74,9 @@ After cloning:
     cd ~/.vim/bundle/tern
     npm install
 
+### [typescript.vim](https://github.com/leafgarland/typescript-vim.git)
+TypeScript syntax highlighting. (See tsuquyomi for language support/magic)
+
 ### [ultisnips](https://github.com/SirVer/ultisnips)
 * `c-k` to complete the match and/or move to the next stop
 * `c-h` to list completions
