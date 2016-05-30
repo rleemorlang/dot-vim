@@ -27,8 +27,8 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
 
 " Powerline font choices, ranked by preferences. Test: 0oO 1li 
-"set guifont=Ubuntu\ Mono\ derivative\ Powerline\ 10 "really nice
-set guifont=Ubuntu\ Mono\ derivative\ Powerline\ 12 "really nice
+set guifont=Ubuntu\ Mono\ derivative\ Powerline\ 10 "really nice
+" set guifont=Ubuntu\ Mono\ derivative\ Powerline\ 12 "really nice
 "set guifont=Meslo\ LG\ S\ for\ Powerline
 "set guifont=Anonymous\ Pro\ for\ Powerline
 "set guifont=Liberation\ Mono\ for\ Powerline "nice, clean
