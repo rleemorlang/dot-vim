@@ -173,3 +173,6 @@ autocmd BufNewFile,BufReadPost *.ledger.txt set noexpandtab shiftwidth=8 tabstop
 
 " Ack
 noremap <Leader>a :Ack <cword><cr>   " search word under cursor
+
+" Syntastic
+let g:syntastic_html_tidy_ignore_errors=["malformed URI", "lacks \"alt", "plain text", "is not recognized", "proprietary attribute", "discarding unexpected"]
