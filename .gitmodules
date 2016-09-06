@@ -90,7 +90,7 @@
 	url = https://github.com/mileszs/ack.vim.git
 [submodule "bundle/typescript-vim"]
 	path = bundle/typescript-vim
-	url = https://github.com/leafgarland/typescript-vim.git
+	url = https://github.com/leafgarland/typescript-vim
 [submodule "bundle/editorconfig-vim"]
 	path = bundle/editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim.git
