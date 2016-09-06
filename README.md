@@ -54,6 +54,11 @@ Put this in ~/.gtkrc-2.0:
 
 ### [easymotion](https://github.com/Lokaltog/vim-easymotion.git)
 
+### [editorconfig](https://github.com/editorconfig/editorconfig-vim)
+* Needs [EditorConfig Core](https://github.com/editorconfig/editorconfig-core-c)
+
+    sudo apt-get install editorconfig
+
 ### [gundo](http://github.com/sjl/gundo.vim.git)
 * `,,u` to open
 
