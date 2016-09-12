@@ -121,6 +121,9 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
+" use eslint if appropriate
+autocmd FileType javascript let b:syntastic_checkers = findfile('.eslintrc', '.;') != '' ? ['eslint'] : ['standard']
+
 " replace default vim search with easymotion
 map  / <Plug>(easymotion-sn)
 omap / <Plug>(easymotion-tn)
