@@ -122,7 +122,17 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
 " use eslint if appropriate
-autocmd FileType javascript let b:syntastic_checkers = findfile('.eslintrc', '.;') != '' ? ['eslint'] : ['standard']
+function! s:hasEslint()
+	if findfile('.eslintrc', '.;') != ''
+		return ['eslint']
+	elseif findfile('.eslintrc.json', '.;') != ''
+		return ['eslint']
+	else
+		return  ['standard']
+	endif
+endfunction
+
+autocmd FileType javascript let b:syntastic_checkers = s:hasEslint()
 
 " replace default vim search with easymotion
 map  / <Plug>(easymotion-sn)
