@@ -204,3 +204,13 @@ noremap <Leader>a :Ack <cword><cr>   " search word under cursor
 
 " Syntastic
 let g:syntastic_html_tidy_ignore_errors=["malformed URI", "lacks \"alt", "plain text", "is not recognized", "proprietary attribute", "discarding unexpected"]
+
+" make YCM compatible with UltiSnips (using supertab)
+let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
+let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
+let g:SuperTabDefaultCompletionType = '<C-n>'
+
+" better key bindings for UltiSnipsExpandTrigger
+let g:UltiSnipsExpandTrigger = "<tab>"
+let g:UltiSnipsJumpForwardTrigger = "<tab>"
+let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
