@@ -1,24 +1,20 @@
-## Environment
+# VIM Configuration
 
-### GTK Configuration
+I don't know why anyone else would want to clone this, but if you do:
+* Beware that the `setup.sh` is written for Ubuntu systems and probably
+installs things you don't want.
+* My mappings and snippets will probably annoy you.
 
-Put this in ~/.gtkrc-2.0:
+## Setup
 
-    # color the right and bottom edges of maximized gvim windows
-    style "gvim" {
-        bg[NORMAL] = "#002b36"
-    }
-    widget "vim-main-window.*.GtkForm" style "gvim"
+First, if you have an existing `.vim` directory or `.vimrc` file, back them
+up. They'll be **overwritten** by the commands below.
 
-## ctags
-
-    apt-get install exuberant-ctags
+    rm -rf ~/.vim
+    git clone https://github.com/rleemorlang/dot-vim ~/.vim
+    ~/.vim/setup.sh
 
 ## Plugin Notes
-
-### [ack](https://github.com/mileszs/ack.vim)
-
-    apt-get install ack-grep
 
 ### [coffee-script](git@github.com:kchmck/vim-coffee-script)
 * `CoffeeCompile` or `CoffeeCompile vert`
@@ -54,11 +50,6 @@ Put this in ~/.gtkrc-2.0:
 
 ### [easymotion](https://github.com/Lokaltog/vim-easymotion.git)
 
-### [editorconfig](https://github.com/editorconfig/editorconfig-vim)
-* Needs [EditorConfig Core](https://github.com/editorconfig/editorconfig-core-c)
-
-    sudo apt-get install editorconfig
-
 ### [gundo](http://github.com/sjl/gundo.vim.git)
 * `,,u` to open
 
@@ -73,12 +64,6 @@ Put this in ~/.gtkrc-2.0:
 
 ### [syntastic](https://github.com/scrooloose/syntastic.git)
 
-### [tern](https://github.com/marijnh/tern_for_vim)
-After cloning:
-
-    cd ~/.vim/bundle/tern
-    npm install
-
 ### [typescript.vim](https://github.com/leafgarland/typescript-vim.git)
 TypeScript syntax highlighting. (See tsuquyomi for language support/magic)
 
@@ -92,18 +77,4 @@ TypeScript syntax highlighting. (See tsuquyomi for language support/magic)
 * `]e` or `[e` to move the current line up/down
 * `]<space>` or `[<space>` to add lines above or below
 * others...
-
-### [youcompleteme](https://github.com/Valloric/YouCompleteMe#full-installation-guide)
-Needs a `git submodule update --init --recursive` to pull down its sub-deps.
-
-Also needs 
-
-    sudo apt-get install cmake python-dev`
-    cd /tmp
-    mkdir yvm_build
-    mkdir ycm_build
-    cd ycm_build
-    cmake -G "Unix Makefiles" . ~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp
-    make ycm_support_libs
-
 
