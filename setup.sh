@@ -76,3 +76,4 @@ if [ ! -f ~/.vim/bundle/YouCompleteMe/third_party/ycmd/ycm_core.so ]; then
   popd .
 fi
 
+sudo npm install -g vimdebug
