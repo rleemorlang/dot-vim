@@ -73,7 +73,7 @@ if [ ! -f ~/.vim/bundle/YouCompleteMe/third_party/ycmd/ycm_core.so ]; then
   cmake -G "Unix Makefiles" . ~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp
   cmake --build . --target ycm_core --config Release
   rm -rf yvm_build ycm_build
-  popd .
+  popd
 fi
 
 sudo npm install -g vimdebug
