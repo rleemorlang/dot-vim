@@ -132,7 +132,21 @@ function! s:hasEslint()
 	endif
 endfunction
 
-autocmd FileType javascript let b:syntastic_checkers = s:hasEslint()
+" use eslint if appropriate
+function! s:setJavaScriptChecker()
+	echo "checking"
+	if findfile('.eslintrc', '.;') != '' 
+				\ || findfile('.eslintrc.js', '.;') != '' 
+				\ || findfile('.eslintrc.json', '.;') != ''
+		let b:syntastic_checkers = ['eslint']
+		let b:syntastic_javascript_eslint_exec = getcwd() . '/node_modules/.bin/eslint'
+	else
+		echo "standard"
+		let b:syntastic_checkers = ['standard']
+	endif
+endfunction
+
+autocmd FileType javascript call s:setJavaScriptChecker()
 
 " replace default vim search with easymotion
 map  / <Plug>(easymotion-sn)
