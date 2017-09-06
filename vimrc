@@ -229,3 +229,13 @@ let g:SuperTabDefaultCompletionType = '<C-n>'
 let g:UltiSnipsExpandTrigger = "<tab>"
 let g:UltiSnipsJumpForwardTrigger = "<tab>"
 let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
+
+" sometimes Syntastic is annoying because the code it's checking is crap
+function! s:toggleSyntastic()
+	call SyntasticToggleMode()
+	windo lcl\|ccl
+endfunction
+noremap <leader>st :call <SID>toggleSyntastic()<CR>
+
+
+
