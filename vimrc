@@ -237,5 +237,7 @@ function! s:toggleSyntastic()
 endfunction
 noremap <leader>st :call <SID>toggleSyntastic()<CR>
 
+" Highlight JSX in .js files :-\
+let g:jsx_ext_required = 0
 
 
