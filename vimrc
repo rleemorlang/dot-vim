@@ -49,6 +49,11 @@ set guifont=Ubuntu\ Mono\ derivative\ Powerline\ 10 "really nice
 "set guifont=Meslo\ LG\ L\ DZ\ for\ Powerline "fairly nice, somewhat serif
 "set guifont=Meslo\ LG\ M\ DZ\ for\ Powerline "nicer, less tall
 
+" make it easier to browse/close open buffers
+noremap <M-j> :bnext<CR>
+noremap <M-k> :bprev<CR>
+noremap <M-q> :bdelete<CR>
+
 " show trailing whitespace
 set list listchars=tab:\ \ ,trail:·
 
