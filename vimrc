@@ -208,7 +208,7 @@ let g:html_indent_inctags="body,head,md-card"
 let g:html_indent_autotags=""   " tags to NOT indent?
 
 " ctrlp
-let g:ctrlp_custom_ignore='dist\|node_modules\|bower_components\|\v[\/]\.(git|hg)'
+let g:ctrlp_custom_ignore='dist\|node_modules\|bower_components\|\v[\/]\.(git|hg)\|screenshots\|features/reports\|.sass-cache'
 noremap <leader>dp :CtrlPClearCache<CR>
 noremap <leader>dP :CtrlPClearAllCaches<CR>
 
