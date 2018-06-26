@@ -249,4 +249,5 @@ noremap <leader>st :call <SID>toggleSyntastic()<CR>
 " Highlight JSX in .js files :-\
 let g:jsx_ext_required = 0
 
-
+" For webpack file change detection
+:set backupcopy=yes
