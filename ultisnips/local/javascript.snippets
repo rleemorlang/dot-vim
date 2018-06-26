@@ -22,10 +22,6 @@ snippet Lfn "multiline lambda function" i
 }
 endsnippet
 
-snippet lfn 
-$1 => $0
-endsnippet
-
 snippet gulp.task "define a gulp task" 
 gulp.task('$1', ($2) => {
 	return $0;
@@ -38,10 +34,45 @@ new Promise((resolve, reject) => {
 });
 endsnippet
 
-snippet .forEach "foreach" i
+snippet .forEach "foreach"
 .forEach($0);
 endsnippet
 
 snippet deeplog
-console.log('$1: ', require("util").inspect($1, { showHidden: true, depth: null, colors: true }));
+console.log(\`$1: \`, require('util').inspect($1, { showHidden: true, depth: null, colors: true }));
+endsnippet
+
+snippet rrender 
+render() {
+	return (
+		$0
+	);
+}
+endsnippet
+
+snippet rcomp "react component"
+class $1 extends Component {
+	$0
+}
+endsnippet
+
+snippet :-{
+console.log(\`:-{ $1\`, $2);
+endsnippet
+
+snippet dnl "eslint disable next line"
+// eslint-disable-next-line $1
+endsnippet
+
+snippet imp "ES6 import"
+import $1 from '$2';
+endsnippet
+
+snippet clog "console log"
+console.log(\`$1\`);
+endsnippet
+
+snippet Clog "intentional console log"
+// eslint-disable-next-line no-console
+console.log(\`$1\`);
 endsnippet
