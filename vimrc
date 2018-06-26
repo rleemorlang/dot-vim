@@ -6,6 +6,10 @@ execute pathogen#infect()
 " APPEARANCE
 syntax on
 set background=dark
+
+let g:solarized_contrast="high"
+let g:solarized_visibility="high"
+
 colorscheme solarized
 
 set nowrap
